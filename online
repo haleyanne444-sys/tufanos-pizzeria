@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tufano's Pizzeria</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="container nav-inner">
+
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Tufano's Pizzeria Logo">
+    </div>
+
+    <div class="nav-links">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#menu">MENU</a>
+      <a href="#hours">HOURS</a>
+      <a href="#contact">CONTACT</a>
+      <a href="#order" class="order-btn">ORDER ONLINE</a>
+    </div>
+
+  </div>
+</nav>
+
+<section class="hero" id="home">
+
+<div class="container hero-content">
+
+<div class="hero-text">
+
+<p class="eyebrow">FAMILY OWNED • HUNTLEY, IL</p>
+
+<h1>
+AUTHENTIC<br>
+ITALIAN<br>
+PIZZA
+</h1>
+
+<div class="script">
+Made With Tradition.
+</div>
+
+<p class="hero-description">
+Owned and worked at the Pizzeria with my brother for over 12 years.
+We pride ourselves on making everything fresh and with the highest quality and we did it before it was cool.
+</p>
+
+<div class="hero-buttons">
+<a href="#menu" class="btn btn-primary">VIEW MENU</a>
+<a href="#order" class="btn btn-secondary">ORDER NOW</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="about-section" id="about">
+
+<div class="container about-grid">
+
+<div class="about-image">
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1600&auto=format&fit=crop">
+</div>
+
+<div class="about-text">
+
+<p class="section-label">OUR STORY</p>
+
+<h2>
+You Might Find Cheaper.<br>
+You Won't Find Better.
+</h2>
+
+<p>
+Owned and worked at the Pizzeria with my brother for over 12 years. We pride ourselves on making everything fresh and with the highest quality and we did it before it was cool.
+</p>
+
+<p>
+You might find cheaper, but you won't find better and with more love put into each bite.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="menu-preview" id="menu">
+
+<div class="container">
+
+<div class="section-heading">
+<p class="section-label">OUR FAVORITES</p>
+<h2>HANDCRAFTED MENU</h2>
+</div>
+
+<div class="menu-grid">
+
+<div class="menu-card">
+<h3>Specialty Pizza</h3>
+
+<ul>
+<li><span>Tufano's Special</span><strong>$23.99+</strong></li>
+<li><span>Meat Lover's</span><strong>$23.99+</strong></li>
+<li><span>Mike's Hot Honey</span><strong>$26.99+</strong></li>
+<li><span>Vegetarian Pizza</span><strong>$23.99+</strong></li>
+</ul>
+
+</div>
+
+<div class="menu-card">
+<h3>Appetizers</h3>
+
+<ul>
+<li><span>Fried Calamari</span><strong>$12.99</strong></li>
+<li><span>Cheese Ravioli</span><strong>$7.85</strong></li>
+<li><span>Chicken Fingers</span><strong>$8.85</strong></li>
+<li><span>Jalapeño Poppers</span><strong>$8.85</strong></li>
+</ul>
+
+</div>
+
+<div class="menu-card">
+<h3>Dinners & Pasta</h3>
+
+<ul>
+<li><span>Chicken Parmesan</span><strong>$13.99</strong></li>
+<li><span>Lasagna</span><strong>$12.99</strong></li>
+<li><span>Fettuccini Alfredo</span><strong>$10.99</strong></li>
+<li><span>Half Slab Ribs</span><strong>$17.99</strong></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="order-section" id="order">
+
+<div class="container order-inner">
+
+<h2>ORDER ONLINE</h2>
+
+<p>
+Fresh pizza, wings, pasta, sandwiches, and homemade Italian favorites — ready when you are.
+</p>
+
+<div class="order-buttons">
+<a href="tel:13125550192" class="btn btn-primary">CALL TO ORDER</a>
+<a href="#" class="btn btn-secondary">START ONLINE ORDER</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="hours-section" id="hours">
+
+<div class="container hours-grid">
+
+<div class="hours-card">
+<h3>HOURS</h3>
+
+<p>
+Friday — 11AM–10PM<br>
+Saturday — 11AM–10PM<br>
+Sunday — 11AM–9PM<br>
+Monday — 3:30PM–9PM<br>
+Tuesday — 3:30PM–9PM<br>
+Wednesday — 3:30PM–9PM<br>
+Thursday — 11AM–9PM
+</p>
+
+</div>
+
+<div class="hours-card">
+<h3>LOCATION</h3>
+
+<p>
+10385 Vine Street<br>
+Huntley, IL 60142
+</p>
+
+</div>
+
+<div class="hours-card" id="contact">
+<h3>CONTACT</h3>
+
+<p>
+(312) 555-0192<br>
+hello@tufanospizzeria.com
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-inner">
+
+<img src="assets/logo.jpeg" alt="Tufano's logo">
+
+<p>
+© 2026 Tufano's Pizzeria — Family Owned & Made With Love
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
